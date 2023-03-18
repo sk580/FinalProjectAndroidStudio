@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="AppName">NASA Image du Jour</string>
+    <string name="AppVersion">Version 1.0</string>
+
+    <string name="SelectDateButtonText">Sélectionner une date</string>
+    <string name="FetchImageButtonText">Télécharger l\'image</string>
+
+    <string name="DateInputHint">YYYY-MM-DD</string>
+
+    <string name="ImageListDeleteTitle">Voulez-vous supprimer cette image ?</string>
+    <string name="ImageListDeleteYes">Oui</string>
+    <string name="ImageListDeleteNo">Non</string>
+    <string name="ImageListDeleteUndo">Annuler</string>
+
+    <!-- Navigation Menu -->
+    <string name="NavigationHomeText">Accueil</string>
+    <string name="NavigationGetImageText">Obtenir une image</string>
+    <string name="NavigationGalleryText">Galerie</string>
+    <string name="NavigationSettingsText">Paramètres</string>
+    <string name="NavigationOpen">Ouvert</string>
+    <string name="NavigationClose">Fermer</string>
+
+    <!-- Toolbar Items -->
+    <string name="ToolbarHomeText">Accueil</string>
+    <string name="ToolbarGetImageText">Obtenir une image</string>
+    <string name="ToolbarGalleryText">Galerie</string>
+    <string name="ToolbarSettingsText">Paramètres</string>
+    <string name="ToolbarHelpText">Aide</string>
+
+    <!-- Toolbar Titles -->
+    <string name="HomeTitle">Écran d\'accueil</string>
+    <string name="GetImageTitle">Obtenir une image</string>
+    <string name="GalleryTitle">Galerie</string>
+    <string name="DetailsTitle">Détails de l\'image</string>
+    <string name="SettingsTitle">Paramètres</string>
+
+    <!-- Help Dialog -->
+    <string name="HelpTitle">Aide</string>
+    <string name="HelpOkay">D\'accord</string>
+
+    <string name="HomeHelpText">
+        Voir l\'image du jour d\'aujourd\'hui !
+        \n\n
+        Si le téléchargement automatique de l\'image d\'aujourd\'hui est désactivé dans les
+        paramètres, un bouton sera disponible pour télécharger manuellement l\'image d\'aujourd\'hui.
+    </string>
+
+    <string name="GalleryHelpText">
+        Cliquez sur une image pour accéder à ses détails.
+        \n\n
+        Cliquez longuement sur une image pour la supprimer.
+    </string>
+
+    <string name="GetImageHelpText">
+        Entrez une date dans le champ de saisie au format AAAA-MM-JJ.
+        \n\n
+        Appuyez sur Sélectionner une date pour afficher un calendrier permettant de sélectionner une date.
+        \n\n
+        Appuyez sur Extraire les données d\'image pour extraire l\'image de la date sélectionnée.
+        \n\n
+        Cliquez sur une image pour accéder à ses détails.
+        \n\n
+        Cliquez longuement sur une image pour la supprimer.
+    </string>
+
+    <string name="ImageDetailsHelpText">
+        Des détails sur l\'image sélectionnée sont fournis
+        \n\n
+        - Titre de l\'image
+        \n\n
+        - Date c\'était l\'image du jour
+        \n\n
+        - URL de l\'image
+        \n\n
+        - URL pour une version de haute qualité de l\'image (si disponible)
+        \n\n
+        - Explication de l\'image
+        \n\n
+        L\'URL et l\'URL HD peuvent être cliqués pour ouvrir l\'image dans votre navigateur.
+    </string>
+
+    <string name="SettingsHelpText">
+        Appuyez sur Nombre d\'images mises en cache pour supprimer toutes les images mises en cache.
+        \n\n
+        Appuyez sur Supprimer les données enregistrées pour supprimer toutes les données enregistrées
+        (y compris les images mises en cache).
+        \n\n
+        Cochez Télécharger automatiquement l\'image d\'aujourd\'hui pour activer ou désactiver le
+        téléchargement de l\'image d\'aujourd\'hui sur la page d\'accueil.
+    </string>
+
+    <!-- Settings -->
+    <string name="SettingsCachedImageCountLabel">Nombre d\'images mises en cache: </string>
+    <string name="SettingsDeleteCachedImagesText">Supprimer les images mises en cache</string>
+    <string name="SettingsDeleteSavedDataText">Supprimer les données enregistrées</string>
+    <string name="SettingsAutoDownloadTodayText">Télécharger automatiquement l\'image du jour ?</string>
+
+    <!-- Home -->
+    <string name="HomeBannerText">L\'image d\'aujourd\'hui</string>
+    <string name="HomeDownloadTodayButtonText">Télécharger l\'image du jour</string>
+</resources>

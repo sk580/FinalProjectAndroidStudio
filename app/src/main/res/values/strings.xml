@@ -1,0 +1,105 @@
+<resources>
+    <string name="AppName">NASA Image of the Day</string>
+    <string name="AppVersion">Version 1.0</string>
+
+    <!-- Non-UI Strings -->
+    <string name="Preferences" translatable="false">com.example.nasaiotd.PREFERENCES</string>
+    <string name="SavedDateKey" translatable="false">LAST_DATE</string>
+    <string name="AutoDownloadKey" translatable="false">AUTO_DOWNLOAD</string>
+
+    <string name="SelectDateButtonText">Select Date</string>
+    <string name="FetchImageButtonText">Download Image</string>
+
+    <string name="DateInputHint">YYYY-MM-DD</string>
+
+    <string name="ImageListDeleteTitle">Do you want to delete this image?</string>
+    <string name="ImageListDeleteYes">Yes</string>
+    <string name="ImageListDeleteNo">No</string>
+    <string name="ImageListDeleteUndo">Undo</string>
+
+    <!-- Navigation Menu -->
+    <string name="NavigationHomeText">Home</string>
+    <string name="NavigationGetImageText">Get Image</string>
+    <string name="NavigationGalleryText">Gallery</string>
+    <string name="NavigationSettingsText">Settings</string>
+    <string name="NavigationOpen">Open</string>
+    <string name="NavigationClose">Close</string>
+
+    <!-- Toolbar Items -->
+    <string name="ToolbarHomeText">Home</string>
+    <string name="ToolbarGetImageText">Get Image</string>
+    <string name="ToolbarGalleryText">Gallery</string>
+    <string name="ToolbarSettingsText">Settings</string>
+    <string name="ToolbarHelpText">Help</string>
+
+    <!-- Toolbar Titles -->
+    <string name="HomeTitle">Home</string>
+    <string name="GetImageTitle">Get Image</string>
+    <string name="GalleryTitle">Gallery</string>
+    <string name="DetailsTitle">Image Details</string>
+    <string name="SettingsTitle">Settings</string>
+
+    <!-- Help Dialog -->
+    <string name="HelpTitle">Help</string>
+    <string name="HelpOkay">OK</string>
+
+    <string name="HomeHelpText">
+        View today\'s image of the day!
+        \n\n
+        If auto download today\'s image is disabled in settings, a button will be available
+        to manually download today\'s image.
+    </string>
+
+    <string name="GalleryHelpText">
+        Click on an image to go to its details.
+        \n\n
+        Long click on an image to delete it.
+    </string>
+
+    <string name="GetImageHelpText">
+        Enter a date into the input field in YYYY-MM-DD format.
+        \n\n
+        Press Select Date to show a calendar for selecting a date.
+        \n\n
+        Press Fetch Image Data to fetch the image for the selected date.
+        \n\n
+        Click on an image to go to its details.
+        \n\n
+        Long click on an image to delete it.
+    </string>
+
+    <string name="ImageDetailsHelpText">
+        Details about the selected image are provided
+        \n\n
+        - Image title
+        \n\n
+        - Date it was the image of the day
+        \n\n
+        - URL for the image
+        \n\n
+        - URL for a high-quality version of the image (if available)
+        \n\n
+        - Explanation of the image
+        \n\n
+        The URL and HD URL can be clicked to open the image in your browser.
+    </string>
+
+    <string name="SettingsHelpText">
+        Press Delete Cached Images to delete all cached images.
+        \n\n
+        Press Delete Saved Data to delete all saved data (including cached images).
+        \n\n
+        Check Automatically download today\'s image to enable or disable the automatic
+        downloading of today\'s image on the home page.
+    </string>
+
+    <!-- Settings -->
+    <string name="SettingsCachedImageCountLabel">Cached Images Count: </string>
+    <string name="SettingsDeleteCachedImagesText">Delete Cached Images</string>
+    <string name="SettingsDeleteSavedDataText">Delete Saved Data</string>
+    <string name="SettingsAutoDownloadTodayText">Automatically download today\'s image?</string>
+
+    <!-- Home -->
+    <string name="HomeBannerText">Today\'s Image</string>
+    <string name="HomeDownloadTodayButtonText">Download Today\'s Image</string>
+</resources>

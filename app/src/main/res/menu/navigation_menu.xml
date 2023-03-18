@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <item android:id="@+id/NavigationHomeItem"
+        android:icon="@drawable/home"
+        android:title="@string/NavigationHomeText" />
+
+    <item android:id="@+id/NavigationGetImageItem"
+        android:icon="@drawable/download"
+        android:title="@string/NavigationGetImageText" />
+
+    <item android:id="@+id/NavigationGalleryItem"
+        android:icon="@drawable/gallery"
+        android:title="@string/NavigationGalleryText" />
+
+    <item android:id="@+id/NavigationSettingsItem"
+        android:icon="@drawable/settings"
+        android:title="@string/NavigationSettingsText" />
+
+</menu>
